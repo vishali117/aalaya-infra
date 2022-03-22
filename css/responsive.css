@@ -43,7 +43,7 @@ Filename      : responsive.css
         height: auto;
     }
     .section2 {
-        padding: 100px 0 200px 0;
+        padding: 50px 0 100px 0;
     }
     .wrap-imgpic {
         margin: 0 auto 50px;
@@ -111,9 +111,14 @@ Filename      : responsive.css
     }
     .big-text {
         top: -10%;
+        font-size: 80px;
     }
     .porto-wrap {
         column-count: 1;
+    }
+    .contact-style {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -136,7 +141,7 @@ Filename      : responsive.css
         font-size: 30px;
     }
     .big-text {
-        font-size: 50px;
+        font-size: 60px;
     }
 }
 
