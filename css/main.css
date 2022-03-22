@@ -860,8 +860,14 @@ section {
 
 .who-i p {
     font-size: 15px;
-    line-height: 25px;
+    line-height: 30px;
     color: var(--baseone);
+    margin-top: 30px;
+}
+.who-i-1st {
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 50px; 
 }
 
 .wrap-imgpic img {
@@ -992,7 +998,6 @@ section {
 
 #testimonial-wrap .wrap-container .big-text {
     top: -2%;
-    font-size: 40px;
 }
 
 .item-testi {

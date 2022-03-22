@@ -26,6 +26,10 @@ Filename      : responsive.css
 @media screen and (max-width: 1024px) {}
 
 @media (max-width: 999px) {
+    .big-text {
+        font-size: 100px;
+        margin-top: 5%;
+    }
     .o-line:nth-child(1) {
         opacity: 0;
     }
@@ -50,6 +54,11 @@ Filename      : responsive.css
     }
     .who-i {
         text-align: center;
+    }
+    .who-i p{
+        text-align: center;
+        font-size: 18px;
+        line-height: 2;
     }
     .porto-wrap {
         column-count: 2;
@@ -120,11 +129,19 @@ Filename      : responsive.css
         display: flex;
         justify-content: center;
     }
+    .who-i p{
+        text-align: center;
+        font-size: 18px;
+        line-height: 2;
+    }
+    .big-text {
+        font-size: 60px;
+    }
 }
 
 @media only screen and (max-width: 699px) {
     .big-text {
-        font-size: 80px;
+        font-size: 50px;
     }
 }
 
@@ -141,7 +158,7 @@ Filename      : responsive.css
         font-size: 30px;
     }
     .big-text {
-        font-size: 60px;
+        font-size: 40px;
     }
 }
 
